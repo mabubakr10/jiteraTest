@@ -1,0 +1,13 @@
+{
+    "newCustomer": {
+        "url": "https://demo.guru99.com/V4/",
+        "customerName": "Alan Hunt",
+        "DOB": "12051982",
+        "address": "123 battery street",
+        "city": "Tempe",
+        "state": "San Francisco",
+        "pin": "123123",
+        "mobile": "1231231234",
+        "password": "admin123"
+    }
+}

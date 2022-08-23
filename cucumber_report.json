@@ -1,0 +1,236 @@
+[
+  {
+    "description": "    Create user and login",
+    "elements": [
+      {
+        "description": "",
+        "id": "sign-up-a-new-user-on-guru;sign-up-a-new-user-on-guru",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Sign up a new user on Guru",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 305893730
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "script loads data from \"login\" with \"guru\"",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 659460
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user visits the guru url",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1718458583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks the visit here link",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 854550585
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user adds random email to sign up",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073320291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user clicks submit button to sign up",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 646574800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user stores the newly generated email and password",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2018169634
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39422203
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sign-up-a-new-user-on-guru;login,-create-new-customer-and-verify-details",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "login, create new customer and verify details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 230521551
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "script loads data from \"login\" with \"guru\"",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 394545
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user visits the guru url",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1585646432
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user logs in using newly generated email and password",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1304265731
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user verifies the successful log in",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 801074
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user clicks on add new customer",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325993587
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user adds details for the new customer and submits",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5305566331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the user verifies details for the new customer",
+            "match": {
+              "location": "src/features/steps/signUpSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2060612455
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59705049
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sign-up-a-new-user-on-guru",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sign up a new user on Guru",
+    "tags": [],
+    "uri": "src/features/signUpGuru.feature"
+  }
+]

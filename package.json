@@ -1,0 +1,48 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Automation setup with puppeteer",
+  "main": "index.js",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "scripts": {
+    "start": "npm run start:remote",
+    "localExecution": "PUPPETEER_EXEC_PATH='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' cucumber-js --require-module @babel/register --require-module @babel/polyfill src/features/signUpGuru.feature -f json:cucumber_report.json",
+    "report": "node cucumberreport.js"
+  },
+  "devDependencies": {
+    "apify": "^0.15.5",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.28.0",
+    "jsdom": "^16.5.1",
+    "mailosaur": "^7.1.0",
+    "pre-commit": "^1.2.2",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "@cucumber/cucumber": "^8.2.1",
+    "@slack/web-api": "^6.1.0",
+    "@wdio/allure-reporter": "^6.7.2",
+    "browserslist": "^4.16.6",
+    "caniuse-lite": "^1.0.30001214",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^5.2.0",
+    "faker": "^5.1.0",
+    "jsdom-global": "^3.0.2",
+    "node-get-time": "^1.1.0",
+    "prettier": "^2.1.2",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "testrail-api-client": "^1.0.18"
+  }
+}
