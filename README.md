@@ -10,7 +10,7 @@
 4. in browserInitializer.js, set the flag name 'headless' as true
 
 ## to view test report
-5 execute npm run test
+5. execute npm run test
 
 ## you can refer to package.json for further clarification on how to execute the code.
 
